@@ -1,0 +1,32 @@
+# robots.txt for Anti-AI Qwen UAV Simulator - Lesson 8
+# https://anti-ai-qwen-uav-simulator-lesson-8.vercel.app/
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://anti-ai-qwen-uav-simulator-lesson-8.vercel.app/sitemap.xml
+
+# Crawl-delay for polite crawling (optional)
+Crawl-delay: 1
+
+# Disallow common paths (if any backend routes exist)
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+
+# Allow main page and assets
+Allow: /index.html
+Allow: /*.js$
+Allow: /*.css$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.ico$
+Allow: /*.mp3$
+Allow: /*.woff$
+Allow: /*.woff2$
+Allow: /*.ttf$
